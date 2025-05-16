@@ -1,0 +1,5 @@
+echo ".idea/" >> .gitignore
+echo ".venv/" >> .gitignore
+echo "*.keras" >> .gitignore
+echo "__pycache__/" >> .gitignore
+echo "*.pyc" >> .gitignore
