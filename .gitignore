@@ -1,5 +1,14 @@
-echo ".idea/" >> .gitignore
-echo ".venv/" >> .gitignore
-echo "*.keras" >> .gitignore
-echo "__pycache__/" >> .gitignore
-echo "*.pyc" >> .gitignore
+# Ignore virtual environments and IDE settings
+.venv/
+.idea/
+
+# Ignore large machine learning model files
+*.keras
+*.h5
+*.pkl
+*.pyd
+*.dll
+
+# Python bytecode
+__pycache__/
+*.pyc
