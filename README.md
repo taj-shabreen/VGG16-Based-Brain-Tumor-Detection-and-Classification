@@ -100,6 +100,19 @@ dataset/
 
 ---
 
+## 📦 requirements.txt
+
+Create a requirements.txt file in the root of your project with the following content:
+```bash
+Flask~=2.1.3
+tensorflow~=2.10.0         # Includes keras, tensorboard, etc.
+numpy~=1.21.6
+Pillow~=9.1.0
+matplotlib~=3.7.1
+pandas~=1.5.2
+opencv-python
+
+```
 ## 🧪 Installation & Setup
 
 ### 📥 Step 1: Clone the Repository
