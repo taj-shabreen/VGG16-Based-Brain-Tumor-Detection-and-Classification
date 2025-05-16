@@ -35,7 +35,7 @@ Loss Function: Categorical Crossentropy
 Optimizer: Adam with learning rate 0.0001
 
 Training: 10 epochs with best model saved based on validation accuracy
----
+
 ```
 ## 📁 Project Structure
 
@@ -137,9 +137,6 @@ Visit http://127.0.0.1:5000 in your browser.
 ```
 
 ## 🖼 Sample Results
-Below are some example outputs from the model prediction interface:
-
-## 🖼 Sample Results
 
 ### Web Application Interface
 
@@ -187,11 +184,28 @@ Pituitary	93%	95%	94%
 
 🖼 Pillow / OpenCV (for image preprocessing)
 
-## ✅ To-Do / Future Enhancements
-Add model explanation using Grad-CAM or LIME
 
-Include confidence scores with predictions
 
-Upload multiple images for batch classification
+## ✅ Future Enhancements
 
-Dockerize the app for deployment
+- Add explainability with Grad-CAM or LIME to visualize model decisions.  
+- Support batch upload of multiple MRI scans for faster processing.
+- Dockerize the app for easy deployment and scalability.   
+- Build a REST API for easy integration with other healthcare tools and services.
+
+## 💼 Use Cases
+
+- 🧠 **Medical Imaging Assistance** – Help radiologists quickly classify brain MRI scans to support early tumor detection.  
+- 🏥 **Healthcare Diagnostics** – Aid hospitals and clinics in automating brain tumor diagnosis workflows for faster patient care.  
+- 📊 **Research & Development** – Provide a platform for researchers to experiment with transfer learning on medical image datasets.  
+- 🎓 **Academic Projects** – Serve as a practical deep learning project for students learning medical AI applications.  
+- 🌐 **Telemedicine Solutions** – Enable remote diagnosis by integrating with web or mobile apps for patients in underserved areas.  
+- 🤖 **AI-powered Screening Tools** – Build smarter systems to pre-screen MRI scans and flag suspicious cases for expert review.
+
+
+## 👤 Maintainer
+Shabreen Taj 🔗 GitHub: @taj-shabreen
+
+
+## ⭐️ Show Your Support
+If you like this project, give it a ⭐ on GitHub and share it!
